@@ -3,3 +3,6 @@ steps:
   args: ['--destination=gcr.io/$PROJECT_ID/built-with-kaniko',
          '--cache=true']
 tags: ['cloud-builders-community']
+options:
+  anthosCluster:
+    membership: projects/793665742643/locations/global/memberships/tr3
